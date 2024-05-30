@@ -22,7 +22,7 @@ const Hero = () => {
           </h1>
           <form
             className="w-full px-8 mt-8"
-            action="https://formsubmit.co/abdullahbinazeem06@gmail.com"
+            action="https://formsubmit.co/ibraj2007@yahoo.com"
             method="POST"
           >
             <div className="flex flex-col md:flex-row justify-between gap-6">

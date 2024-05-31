@@ -36,8 +36,8 @@ const Footer = () => {
           </h1>
 
           <div className="flex gap-8 justify-between flex-wrap mt-12">
-            {ContactOptions.map((contact) => (
-              <div className="flex gap-4 flex-1 min-w-[300px]">
+            {ContactOptions.map((contact, i) => (
+              <div key={i} className="flex gap-4 flex-1 min-w-[300px]">
                 <contact.icon className="box-content	text-secondary min-w-8 min-h-8 p-5 bg-primary" />
                 <div className="text-white">
                   <h1 className="teko text-2xl">{contact.title}</h1>

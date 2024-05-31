@@ -48,9 +48,9 @@ const Process = () => {
             {steps.map((step, i) => (
               <div key={i} className="flex flex-col gap-6 lg:p-0 pt-10">
                 <div className="m-auto inline-block bg-primary p-8 relative">
-                  <step.icon className="w-12 h-12 text-secondary" />
+                  <step.icon className="p-6 md:p-7 w-10 md:w-12 h-10 md:h-12 text-secondary" />
                 </div>
-                <h1 className="teko text-secondary text-3xl xl:text-4xl font-bold">
+                <h1 className="teko text-secondary text-2xl md:text-3xl xl:text-4xl font-bold">
                   {step.title}
                 </h1>
                 <p className=" text-secondary serrat text-balance">

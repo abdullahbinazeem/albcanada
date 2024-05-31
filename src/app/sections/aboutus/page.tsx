@@ -46,10 +46,10 @@ const AboutUs = () => {
         {Pros.map((pro, i) => (
           <div className="text-center flex flex-col gap-6 self-start" key={i}>
             <pro.icon
-              className="m-auto p-7 w-12 h-12 box-content bg-primary "
+              className="m-auto p-6 md:p-7 w-10 md:w-12 h-10 md:h-12 box-content bg-primary "
               stroke="#403230"
             />
-            <h1 className="text-4xl teko text-secondary font-semibold">
+            <h1 className="text-2xl md:text-3xl xl:text-4xl teko text-secondary font-semibold">
               {pro.title}
             </h1>
             <p className="serrat text-secondary">{pro.paragraph}</p>

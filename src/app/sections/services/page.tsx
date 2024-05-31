@@ -47,13 +47,13 @@ const Services = () => {
           <div key={i} className="h-[50vh] min-h-[450px] relative">
             <div className="w-full h-full  absolute top-0 left-0">
               <Image
-                src={`/assets/${service.img}.jpg`}
+                src={`/assets/services/${service.img}.jpg`}
                 alt={service.title}
                 fill
                 className="relative z-10 object-cover	"
               />
-              <div className="w-full h-full absolute bg-primary z-[15] opacity-15" />
-              <div className="w-full h-full relative bg-black z-20 opacity-80" />
+              <div className="w-full h-full absolute bg-primary z-[15] opacity-20" />
+              <div className="w-full h-full relative bg-black z-20 opacity-75" />
             </div>
             <div className="pt-20 px-5 relative z-30 grid place-content-center h-full text-center text-white">
               <h1 className="text-4xl teko">{service.title}</h1>

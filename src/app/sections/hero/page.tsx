@@ -4,7 +4,10 @@ import React from "react";
 const Hero = () => {
   return (
     <Container className="bg-[url('/assets/herobg.jpg')]  bg-cover bg-center">
-      <div className="flex lg:flex-row flex-col  gap-20 items-center lg:justify-between min-h-[90vh] py-32  text-white">
+      <div
+        className="flex lg:flex-row flex-col  gap-20 items-center lg:justify-between min-h-[90vh] py-32  text-white"
+        id="home"
+      >
         <div className="flex-1">
           <h1 className="text-5xl sm:text-7xl lg:text-[84px] leading-[105%] font-bold teko">
             ALBCANADA Constructions

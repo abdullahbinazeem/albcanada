@@ -44,7 +44,7 @@ const Process = () => {
           <h1 className="text-secondary teko text-4xl md:text-5xl font-bold">
             Our process make it easy
           </h1>
-          <div className="mt-20 gap-x-12 divide-secondaryLight  divide-y-2 lg:divide-y-0 gap-y-10 grid items-start grid-cols-1 lg:grid-cols-3">
+          <div className="mt-10 lg:mt-20 gap-x-12 divide-secondaryLight  divide-y-2 lg:divide-y-0 gap-y-10 grid items-start grid-cols-1 lg:grid-cols-3">
             {steps.map((step, i) => (
               <div key={i} className="flex flex-col gap-6 lg:p-0 pt-10">
                 <div className="m-auto inline-block bg-primary p-8 relative">
@@ -59,9 +59,9 @@ const Process = () => {
               </div>
             ))}
           </div>
-          <div className="inline mt-32">
+          <div className="inline mt-32 animate-bounce hover:animate-none hover:scale-105 transition-all">
             <a
-              className=" bg-primary text-secondary teko font-bold rounded-sm text-2xl px-10 py-5 uppercase tracking-wide 
+              className=" bg-primary text-secondary teko font-bold rounded-md text-2xl px-10 py-5 uppercase tracking-wide 
                       "
               href="#home"
             >

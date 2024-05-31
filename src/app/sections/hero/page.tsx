@@ -63,8 +63,9 @@ const Hero = () => {
             <select
               name="Service"
               className="w-full mt-6 text-secondary py-4 px-5 text-xl border-2 focus:outline-none focus:border-secondary"
+              defaultValue="default"
             >
-              <option value="" disabled selected>
+              <option value="default" disabled>
                 Select your service
               </option>
               <option value="Flat Roofing">Flat Roofing</option>

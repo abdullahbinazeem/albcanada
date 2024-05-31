@@ -7,9 +7,9 @@ const Hero = () => {
       <div className="flex lg:flex-row flex-col  gap-20 items-center lg:justify-between min-h-[90vh] py-32  text-white">
         <div className="flex-1">
           <h1 className="text-5xl sm:text-7xl lg:text-[84px] leading-[105%] font-bold teko">
-            ALBCANADA
+            ALBCANADA Constructions
             <br />
-            Roofing Experts
+            Roofing & Exterior
           </h1>
           <p className="sm:text-lg lg:text-xl mt-4 lg:mt-8 serrat max-w-[500px]">
             We are local roofing company that uses high quality material

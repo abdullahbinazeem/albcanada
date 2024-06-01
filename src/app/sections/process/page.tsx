@@ -47,9 +47,7 @@ const Process = () => {
           <div className="mt-10 lg:mt-20 gap-x-12 divide-secondaryLight  divide-y-2 lg:divide-y-0 gap-y-10 grid items-start grid-cols-1 lg:grid-cols-3">
             {steps.map((step, i) => (
               <div key={i} className="flex flex-col gap-6 lg:p-0 pt-10">
-                <div className="m-auto inline-block bg-primary p-8 relative">
-                  <step.icon className="p-6 md:p-7 w-10 md:w-12 h-10 md:h-12 text-secondary" />
-                </div>
+                <step.icon className="m-auto p-6 md:p-7 w-10 md:w-12 h-10 md:h-12 box-content bg-primary text-secondary" />
                 <h1 className="teko text-secondary text-2xl md:text-3xl xl:text-4xl font-bold">
                   {step.title}
                 </h1>

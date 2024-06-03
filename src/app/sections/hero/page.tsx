@@ -1,9 +1,20 @@
 import Container from "@/app/components/container";
 import React from "react";
 
+import Image from "next/image";
+
 const Hero = () => {
   return (
     <Container className="bg-[url('/assets/herobg.jpg')]  bg-cover bg-center">
+      <div className="pt-12">
+        <Image
+          src="/assets/logo.png"
+          alt="logo"
+          width={200}
+          height={200}
+          className="w-24 md:w-32 aspect-square"
+        />
+      </div>
       <div
         className="flex lg:flex-row flex-col  gap-20 items-center lg:justify-between min-h-[90vh] py-32  text-white"
         id="home"

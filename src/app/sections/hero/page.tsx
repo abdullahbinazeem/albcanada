@@ -10,7 +10,7 @@ const Hero = () => {
       >
         <div className="flex-1">
           <h1 className="text-5xl sm:text-7xl lg:text-[84px] leading-[105%] font-bold teko">
-            ALBCANADA Constructions
+            ALBCANADA Construction
             <br />
             Roofing & Exterior
           </h1>

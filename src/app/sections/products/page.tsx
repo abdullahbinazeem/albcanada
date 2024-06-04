@@ -25,6 +25,25 @@ const products = [
   },
 ];
 
+const producers = [
+  {
+    title: "GAF",
+    img: "gaf",
+  },
+  {
+    title: "Owens Cornering",
+    img: "owenscornering",
+  },
+  {
+    title: "Malarkey",
+    img: "malarkey",
+  },
+  {
+    title: "Iko",
+    img: "iko",
+  },
+];
+
 const Products = () => {
   return (
     <Container className="my-40">
@@ -63,6 +82,21 @@ const Products = () => {
                 continuing to raise the bar when it comes to roofing.
               </p>
             </div>
+          </div>
+        ))}
+      </div>
+      <div className="flex gap-10 md:gap-20 mt-20 justify-center flex-wrap">
+        {producers.map((producer, i) => (
+          <div
+            key={i}
+            className="aspect-square relative w-[140px] sm:w-[180px] md:w-[200px]"
+          >
+            <Image
+              src={`/assets/products/${producer.img}.jpg`}
+              alt={producer.title}
+              className="aspect-square w-20 object-contain"
+              fill
+            />
           </div>
         ))}
       </div>

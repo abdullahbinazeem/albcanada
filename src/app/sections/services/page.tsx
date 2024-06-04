@@ -4,7 +4,7 @@ import React from "react";
 
 const services = [
   {
-    title: "Roof Installation",
+    title: "Roof Installation & Siding",
     paragraph:
       "We do roofing Installations, Roofing repairs, flat roofing. e ipsum dolor sit amet, consectetur adipiscing elit quis posuere lacus",
     img: "roofing",
@@ -16,7 +16,7 @@ const services = [
     img: "flatroofing",
   },
   {
-    title: "Siding & Shingles",
+    title: "Siding & Gutters",
     paragraph:
       "We do roofing Installations, Roofing repairs, flat roofing. e ipsum dolor sit amet, consectetur adipiscing elit quis posuere lacus",
     img: "shingles",

@@ -2,6 +2,8 @@ import Container from "@/app/components/container";
 import { ClipboardList, BadgeCent, Timer, Icon } from "lucide-react";
 import React from "react";
 
+import Image from "next/image";
+
 const Pros = [
   {
     title: "Free Survey & Quote",
@@ -55,6 +57,24 @@ const AboutUs = () => {
             <p className="serrat text-secondary">{pro.paragraph}</p>
           </div>
         ))}
+      </div>
+      <div className="flex gap-20 md:gap-40 mt-20 justify-center flex-wrap">
+        <div className="aspect-[2]  relative min-w-[200px]  flex-1">
+          <Image
+            src={`/assets/worksafe.jpg`}
+            alt="Work Safe"
+            className="aspect-square w-20 object-contain"
+            fill
+          />
+        </div>
+        <div className="aspect-[2] relative min-w-[180px]  flex-1">
+          <Image
+            src={`/assets/bbb.png`}
+            alt="Work Safe"
+            className="aspect-square w-20 object-contain"
+            fill
+          />
+        </div>
       </div>
     </Container>
   );

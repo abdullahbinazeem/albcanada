@@ -29,6 +29,15 @@ const Hero = () => {
             We are local roofing company that uses high quality material
             manufactured locally and comes with a warranty.
           </p>
+          <div className="mt-10 animate-bounce">
+            <a
+              className=" bg-primary text-secondary teko font-bold rounded-md text-2xl px-8 py-4 uppercase tracking-wide 
+                      "
+              href="tel:(250)-918-5591"
+            >
+              Call US NOW!
+            </a>
+          </div>
         </div>
         <div className="flex-1 bg-primary text-center py-10  teko">
           <h1 className="text-secondary text-4xl lg:text-5xl font-semibold">

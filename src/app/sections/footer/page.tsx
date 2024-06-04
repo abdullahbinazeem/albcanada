@@ -1,6 +1,7 @@
 import Container from "@/app/components/container";
 import { DoorOpen, Home, icons, Mails, Phone } from "lucide-react";
 import React from "react";
+import Image from "next/image";
 
 const ContactOptions = [
   {
@@ -34,6 +35,24 @@ const Footer = () => {
     <>
       <div className="bg-secondary">
         <Container className="py-24">
+          <div className="flex gap-10 md:gap-20 mb-20  flex-wrap">
+            <div className="aspect-[2]  relative max-w-[200px]  flex-1">
+              <Image
+                src={`/assets/worksafe.jpg`}
+                alt="Work Safe"
+                className="aspect-square w-20 object-contain"
+                fill
+              />
+            </div>
+            <div className="aspect-[2] relative max-w-[180px]  flex-1">
+              <Image
+                src={`/assets/bbb.png`}
+                alt="Better Business Bureau"
+                className="aspect-square w-20 object-contain"
+                fill
+              />
+            </div>
+          </div>
           <h2 className="text-4xl teko text-primary">Get in Touch</h2>
           <h1 className="text-5xl text-white font-semibold teko mt-4">
             Need Roofing Serivces?

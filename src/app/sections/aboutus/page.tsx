@@ -70,7 +70,7 @@ const AboutUs = () => {
         <div className="aspect-[2] relative min-w-[180px]  flex-1">
           <Image
             src={`/assets/bbb.png`}
-            alt="Work Safe"
+            alt="Better Business Bureau"
             className="aspect-square w-20 object-contain"
             fill
           />

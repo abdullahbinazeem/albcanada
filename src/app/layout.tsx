@@ -9,10 +9,25 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title:
-    "AlbCanada Construction | Professional Roofing Services in Victoria, BC",
-  description:
-    "AlbCanada Construction. Discover top-quality roofing services in Victoria, BC. Our expert team offers reliable roof installation, repair, and maintenance solutions. Trust us for durable and efficient roofing tailored to your needs. Fill out a form for a free consultation!",
+  metadataBase: new URL("https://albcanada.ca/"),
+  keywords: [
+    "Roofing",
+    "Flat Roofing",
+    "Gutters",
+    "Siding",
+    "Pressure Washing",
+    "Moss Removal",
+  ],
+  title: {
+    default:
+      "AlbCanada Construction - Professional Roofing Services in Victoria, BC",
+    template:
+      "%s | AlbCanada Construction - Professional Roofing Services in Victoria, BC",
+  },
+  openGraph: {
+    description:
+      "AlbCanada Construction. Discover top-quality roofing services in Victoria, BC. Our expert team offers reliable roof installation, repair, and maintenance solutions. Trust us for durable and efficient roofing tailored to your needs. Fill out a form for a free consultation!",
+  },
 };
 
 export default function RootLayout({

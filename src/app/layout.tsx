@@ -9,9 +9,10 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "ALB CANADA | Professional Roofing Services in Victoria, BC",
+  title:
+    "AlbCanada Construction | Professional Roofing Services in Victoria, BC",
   description:
-    "Discover top-quality roofing services in Victoria, BC with ALB CANADA. Our expert team offers reliable roof installation, repair, and maintenance solutions. Trust us for durable and efficient roofing tailored to your needs. Fill out a form for a free consultation!",
+    "AlbCanada Construction. Discover top-quality roofing services in Victoria, BC. Our expert team offers reliable roof installation, repair, and maintenance solutions. Trust us for durable and efficient roofing tailored to your needs. Fill out a form for a free consultation!",
 };
 
 export default function RootLayout({

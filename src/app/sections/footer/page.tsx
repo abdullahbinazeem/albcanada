@@ -33,7 +33,7 @@ const ContactOptions = [
 
 const Footer = () => {
   return (
-    <>
+    <footer>
       <div className="bg-secondary">
         <Container className="py-24">
           <div className="flex gap-10 md:gap-20 mb-20 justify-end flex-wrap">
@@ -87,7 +87,7 @@ const Footer = () => {
           </p>
         </Container>
       </div>
-    </>
+    </footer>
   );
 };
 

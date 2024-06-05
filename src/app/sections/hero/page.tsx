@@ -6,7 +6,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <Container className="bg-[url('/assets/herobg.jpg')]  bg-cover bg-center">
-      <div className="pt-12">
+      <div className="pt-12 flex justify-between items-center">
         <Image
           src="/assets/logo.png"
           alt="logo"
@@ -14,6 +14,13 @@ const Hero = () => {
           height={200}
           className="w-24 md:w-32 aspect-square"
         />
+        <a
+          className="animate-bounce bg-primary text-secondary teko font-bold rounded-md text-2xl px-8 py-4 uppercase tracking-wide 
+                      "
+          href="tel:(250)-918-5591"
+        >
+          Call US NOW!
+        </a>
       </div>
       <div
         className="flex lg:flex-row flex-col  gap-20 items-center lg:justify-between min-h-[90vh] py-32  text-white"
@@ -29,15 +36,6 @@ const Hero = () => {
             We are local roofing company that uses high quality material
             manufactured locally and comes with a warranty.
           </p>
-          <div className="mt-10 animate-bounce">
-            <a
-              className=" bg-primary text-secondary teko font-bold rounded-md text-2xl px-8 py-4 uppercase tracking-wide 
-                      "
-              href="tel:(250)-918-5591"
-            >
-              Call US NOW!
-            </a>
-          </div>
         </div>
         <div className="flex-1 bg-primary text-center py-10  teko">
           <h1 className="text-secondary text-4xl lg:text-5xl font-semibold">
@@ -45,7 +43,7 @@ const Hero = () => {
           </h1>
           <form
             className="w-full px-8 mt-8"
-            action="https://formsubmit.co/ibraj2007@yahoo.com"
+            action="https://formsubmit.co/info@albcanada.ca"
             method="POST"
           >
             <div className="flex flex-col md:flex-row justify-between gap-6">

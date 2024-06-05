@@ -89,7 +89,7 @@ const Products = () => {
         {producers.map((producer, i) => (
           <div
             key={i}
-            className="aspect-square relative w-[140px] sm:w-[180px] md:w-[200px]"
+            className="aspect-square relative w-[120px] sm:w-[140px]  md:w-[160px]"
           >
             <Image
               src={`/assets/products/${producer.img}.jpg`}

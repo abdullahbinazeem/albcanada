@@ -13,13 +13,14 @@ const ContactOptions = [
   {
     title: "Make a Call",
     info: "(250)-918-5591",
+    name: "Besmir Ibraj",
     link: "tel:(250)-918-5591",
     icon: Phone,
   },
   {
     title: "Send are Email",
-    info: "info@albcanada.com",
-    link: "mailto:someone@example.com",
+    info: "info@albcanada.ca",
+    link: "mailto:info@albcanada.ca",
     icon: Mails,
   },
   {
@@ -35,7 +36,7 @@ const Footer = () => {
     <>
       <div className="bg-secondary">
         <Container className="py-24">
-          <div className="flex gap-10 md:gap-20 mb-20  flex-wrap">
+          <div className="flex gap-10 md:gap-20 mb-20 justify-end flex-wrap">
             <div className="aspect-[2]  relative max-w-[200px]  flex-1">
               <Image
                 src={`/assets/worksafe.jpg`}
@@ -69,6 +70,9 @@ const Footer = () => {
                 <contact.icon className="box-content	text-secondary min-w-8 min-h-8 p-5 bg-primary" />
                 <div className="text-white">
                   <h1 className="teko text-2xl">{contact.title}</h1>
+                  <p className="serrat underline">
+                    {contact.name && contact.name}
+                  </p>
                   <p className="serrat">{contact.info}</p>
                 </div>
               </a>

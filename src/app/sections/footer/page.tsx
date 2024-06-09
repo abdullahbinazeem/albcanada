@@ -81,9 +81,15 @@ const Footer = () => {
         </Container>
       </div>
       <div className="bg-[#2E2523]">
-        <Container>
-          <p className="text-white serrat p-7 text-center">
+        <Container className="p-7">
+          <p className="text-white serrat text-center">
             © Copyright 2024 ALB Canada Construction
+          </p>
+          <p className="text-white serrat mt-2 text-center hover:underline cursor-pointer transition-all">
+            <a href="https://xaama.tech" target="_blank">
+              {" "}
+              Website Design by Xamaa Developments
+            </a>
           </p>
         </Container>
       </div>

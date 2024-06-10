@@ -11,8 +11,8 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   metadataBase: new URL("https://albcanada.ca"),
   keywords: [
+    "AlbCanada Construction",
     "Roofing",
-    "Flat Roofing",
     "Gutters",
     "Siding",
     "Pressure Washing",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   ],
   title: {
     default:
-      "ALBCanada Construction - Professional Roofing Services in Victoria, BC",
+      "AlbCanada Construction | Professional Roofing Services in Victoria, BC",
     template:
       "%s | AlbCanada Construction - Professional Roofing Services in Victoria, BC",
   },

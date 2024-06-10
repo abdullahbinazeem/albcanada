@@ -33,8 +33,8 @@ const Hero = () => {
             Roofing & Exterior
           </h1>
           <p className="sm:text-lg lg:text-xl mt-4 lg:mt-8 serrat max-w-[500px]">
-            We are local roofing company that uses high quality material
-            manufactured locally and comes with a warranty.
+            We are local roofing company in Victoria, BC. We use high quality
+            material manufactured locally which also comes with a warranty.
           </p>
         </div>
         <div className="flex-1 bg-primary text-center py-10  teko">

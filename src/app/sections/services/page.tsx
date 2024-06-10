@@ -6,25 +6,25 @@ const services = [
   {
     title: "Roof Installation & Shingles",
     paragraph:
-      "We do roofing Installations, Roofing repairs, flat roofing. e ipsum dolor sit amet, consectetur adipiscing elit quis posuere lacus",
+      "Transform your home with our expert roof installation services, designed for durability and style. Choose from a wide variety of high-quality shingles, professionally installed to ensure lasting protection and beauty.",
     img: "roofing",
   },
   {
     title: "Flat Roofing",
     paragraph:
-      "We do roofing Installations, Roofing repairs, flat roofing. e ipsum dolor sit amet, consectetur adipiscing elit quis posuere lacus",
+      "Optimize your building with our specialized flat roofing services, ensuring robust durability and energy efficiency. Our skilled team delivers flawless installations using premium materials designed specifically for flat roofs.",
     img: "flatroofing",
   },
   {
     title: "Siding & Gutters",
     paragraph:
-      "We do roofing Installations, Roofing repairs, flat roofing. e ipsum dolor sit amet, consectetur adipiscing elit quis posuere lacus",
+      "Upgrade your home's exterior with our siding and gutter services, offering superior protection and enhanced curb appeal. Enjoy lasting performance with our high-quality materials.",
     img: "shingles",
   },
   {
     title: "Moss Removal & Pressure Washing",
     paragraph:
-      "We do roof & gutter cleaning e ipsum dolor sit amet, consectetur adipiscing elit quis posuere lacus",
+      "Revitalize your home with our moss removal and pressure washing services, ensuring a clean and vibrant exterior. Restore your property's beauty and protect surfaces with our thorough, high-quality cleaning solutions.",
     img: "clean",
   },
 ];

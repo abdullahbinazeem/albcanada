@@ -8,7 +8,7 @@ const products = [
   {
     title: "Asphalt Roofing",
     paragraph:
-      "With asphalt shingles today providing a Beautiful, Affordable and Reliable roofing option for any home, asphalt shingles continuing to raise the bar when it comes to roofing.",
+      "Asphalt roofing, a popular choice for homeowners and contractors alike, offers a blend of affordability, durability, and versatility. Its weather-resistant properties make it ideal for various climates, ensuring long-lasting protection for your property",
     img: "asphalt",
   },
   {
@@ -76,11 +76,7 @@ const Products = () => {
               <h1 className="md:text-4xl text-3xl font-semibold teko">
                 {product.title}
               </h1>
-              <p className="serrat text-sm md:text-base">
-                With asphalt shingles today providing a Beautiful, Affordable
-                and Reliable roofing option for any home, asphalt shingles
-                continuing to raise the bar when it comes to roofing.
-              </p>
+              <p className="serrat text-sm md:text-base">{product.paragraph}</p>
             </div>
           </div>
         ))}
